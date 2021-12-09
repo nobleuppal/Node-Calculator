@@ -21,7 +21,7 @@ while (operation !='/' || operation != '*' || operation != '-' || operation != '
       answer = number + numberTwo;
     } 
     console.log('The result is:', answer);
-    return 0;
+    break;
   }
   else {
     console.log('That is not a valid operation');
